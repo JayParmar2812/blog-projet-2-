@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bolg</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">bolg</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span> <span font>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page"
+              >Services</a
+            >
+            <li class="navbar__item">
+              <!--<a href="#project" class="navbar__links" id="project-page">Project</a>-->
+            </li>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div className="hero__container">
+        <div class="slider">
+          <!-- fade css -->
+              <div class="myslide fade">
+                <div class="txt">
+              <h1>bolg</h1>
+              <p>Our Mantra<br>“IT + IT = IT" (Indian Talent IT + Information Technology IT = India Tomorrow IT). </p>
+            </div>
+            <img src="img1.jpg" style="width: 100%; height: 100%;">
+          </div>
+      
+          <div class="myslide fade">
+            <div class="txt">
+              <h1>IT services</h1>
+              <p>Software Designing & Development<br>Deals in computer software and solutions</p>
+            </div>
+            <img src="img2.jpg" style="width: 100%; height: 100%;">
+          </div>
+      
+          <div class="myslide fade">
+            <div class="txt">
+              <h1>Training, Consultancy & Advisory</h1>
+              <p>Provides all related services in all areas of information technology<br>including computer hardware and software</p>
+        </div>
+            <img src="img3.jpg" style="width: 100%; height: 100%;">
+          </div>
+      
+          <div class="myslide fade">
+            <div class="txt">
+              <h1>Manpower Recruitment</h1>
+              <p>Bring in necessary skilled personnel to develop market,<br>implement systems and application software packages and related products</p>
+            </div>
+            <img src="img4.jpg" style="width: 100%; height: 100%;">
+          </div>
+      
+          <div class="myslide fade">
+            <div class="txt">
+              <h1>Testing & Benchmarking</h1>
+              <p>We deals in sell, purchase, distribute own- and third-party computer software<br> packages, programs and solutions, and to provide<br> internet / web-based applications, services and solutions.</p>
+            </div>
+             <img src="img5.jpg" style="width: 100%; height: 100%;">
+          </div>
+           <!-- /fade css -->
+      
+          <!-- onclick js -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+       
+          <div class="dotsbox" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+          </div>
+          <!-- /onclick js -->
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
+        </div>
+        <div class="main__content">
+          <h1>What do we do?</h1>
+          <h2 >bolg provides the services and solutions for development and designs for e-products, training and capacity building of its users for its better implementation through onsite support</h2>
+          <p>Schedule a call to learn more about our services</p>
+          <button class="main__btn"><a href="#">Schedule Call</a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services" id="services">
+      <h1>INDIA'S IT AT ONE PLACE </h1>
+      <h2>OUR SERVICES</h2>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>Web Development</h2>
+          <p></p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Software Development</h2>
+          <p></p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>E-Products</h2>
+          <p></p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Design & Development</h2>
+          <p></p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Section -->
+    <div class="project" id="project">
+      <div class="project__container">
+        
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="/Mission">How it works</a> <a href="/">Testimonials</a>
+            <a href="/">Careers</a> <a href="/">Terms of Service</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="/">Contact</a> <a href="/">Support</a>
+            <a href="/">Destinations</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Videos</h2>
+            <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
+            <a href="/">Agency</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="/">Instagram</a> <a href="/">Facebook</a>
+            <a href="/">Youtube</a> <a href="/">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">bolg</a>
+          </div>
+          <p class="website__rights">© bolg 2020. All rights reserved</p>
+          <div class="social__icons">
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
